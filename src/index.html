@@ -9,5 +9,17 @@
 </head>
 <body>
   <app-root></app-root>
+
+  <script>
+    var title = document.title;
+    window.addEventListener('blur',()=>{
+      document.title="Come Back :("
+    })
+    window.addEventListener('focus',()=>{
+      document.title = "Stitch Connect"
+    })
+    
+    
+  </script>
 </body>
 </html>
