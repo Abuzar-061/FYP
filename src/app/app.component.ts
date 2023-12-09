@@ -10,5 +10,5 @@ import { RouterOutlet } from '@angular/router';
     imports: [CommonModule, RouterOutlet]
 })
 export class AppComponent {
-  title = 'fyp';
+  title = 'Stitch Connect';
 }
